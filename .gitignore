@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Generated files
+*.md
+*.json
+*.pkl
+*.pkl.gz
+
+# Large data files (uncomment if you want to exclude them)
+# Data files
+data/datasets/**/*.txt
+data/datasets/**/*.csv
+data/datasets/**/*.fasta
+
+# ESMC features (large files)
+esmc_600mfeatures/**/*.txt
+
+# Model outputs
+models/
+*.h5
+*.keras
