@@ -1,0 +1,2 @@
+data/** filter=lfs diff=lfs merge=lfs -text
+esmc_600mfeatures/** filter=lfs diff=lfs merge=lfs -text
